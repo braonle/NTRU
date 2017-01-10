@@ -53,10 +53,9 @@ PolType * Decryption::decryptPol(PolType * c)
 	return tmp;
 }
 
-unsigned char * Decryption::decrypt(char *data)
+unsigned char * Decryption::decrypt(char *data, unsigned char *data_out)
 {
 	PolType *pols[8];
-	unsigned char *data_out = nullptr;
 	char *data_in[8];
 	
 	//Формирование полинома
@@ -83,7 +82,6 @@ unsigned char * Decryption::decrypt(char *data)
 			data_in[i] = pols[i]->getChar();
 
 		ByteStreamOut st_out(data_in, p->get_N(), 8);
-		data_out = new unsigned char[p->get_N()];
 		for (int i = 0; i < p->get_N(); ++i)
 			data_out[i] = st_out.getNextByte();
 		
@@ -92,7 +90,6 @@ unsigned char * Decryption::decrypt(char *data)
 			delete pols[i];
 			delete[] data_in[i];
 		}
-
 		return data_out;
 	}
 	catch (int)
@@ -102,7 +99,6 @@ unsigned char * Decryption::decrypt(char *data)
 			delete pols[i];
 			delete[] data_in[i];
 		}
-		delete data_out;
 		return nullptr;
 	}
 }

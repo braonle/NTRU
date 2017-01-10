@@ -1,0 +1,231 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BitStreamIn	ntru/include/BitStream.h	/^class BitStreamIn$/;"	c
+BitStreamIn	ntru/src/BitStream.cpp	/^BitStreamIn::BitStreamIn(unsigned char *data, int num)$/;"	f	class:BitStreamIn
+BiteField	ntru/include/BitStream.h	/^class BiteField$/;"	c
+BiteField	ntru/src/BitStream.cpp	/^BiteField::BiteField(unsigned char c)$/;"	f	class:BiteField
+Bits	ntru/include/BitStream.h	/^struct Bits$/;"	s
+Byte	ntru/include/BitStream.h	/^union Byte$/;"	u
+ByteStreamOut	ntru/include/BitStream.h	/^class ByteStreamOut$/;"	c
+ByteStreamOut	ntru/src/BitStream.cpp	/^ByteStreamOut::ByteStreamOut(char **data, int num_bytes, int num_blocks)$/;"	f	class:ByteStreamOut
+CC	ntru/Makefile	/^CC = g++$/;"	m
+CC	ntru/src/Makefile	/^CC = g++$/;"	m
+DEC	python/NTRU.py	/^DEC = 2$/;"	v
+Decryption	ntru/include/Decryption.h	/^class Decryption$/;"	c
+Decryption	ntru/src/Decryption.cpp	/^Decryption::Decryption(Parameters *_p) : p(_p), gen(p->get_N())$/;"	f	class:Decryption
+ENC	python/NTRU.py	/^ENC = 1$/;"	v
+Encryption	ntru/include/Encryption.h	/^class Encryption$/;"	c
+Encryption	ntru/src/Encryption.cpp	/^Encryption::Encryption(Parameters *_p, PolType* _h) : p(_p), h(_h), gen(p->get_N())$/;"	f	class:Encryption
+Encryption	ntru/src/Encryption.cpp	/^Encryption::Encryption(Parameters *p, char *data) : gen(p->get_N())$/;"	f	class:Encryption
+INC	ntru/Makefile	/^INC = include\/$/;"	m
+INC	ntru/src/Makefile	/^INC = ..\/include$/;"	m
+LDFLAGS	ntru/Makefile	/^LDFLAGS = -std=c++11 -W -Wall -g -L ${LIBPATH}$/;"	m
+LDFLAGS	ntru/src/Makefile	/^LDFLAGS = -std=c++11 -shared -Wl,-soname,${NAME}$/;"	m
+LIB	ntru/Makefile	/^LIB = lib\/libntru.so$/;"	m
+LIB	ntru/src/Makefile	/^LIB = ..\/lib$/;"	m
+LIBFLG	ntru/Makefile	/^LIBFLG = -lntru$/;"	m
+LIBNAME	ntru/src/Makefile	/^LIBNAME = libntru.so.1.0.1 $/;"	m
+LIBPATH	ntru/Makefile	/^LIBPATH = lib$/;"	m
+LIBPATH	ntru/src/Makefile	/^LIBPATH = ${LIB}\/${LIBNAME}$/;"	m
+MAKE	ntru/Makefile	/^MAKE = make$/;"	m
+NAME	ntru/src/Makefile	/^NAME = libntru.so.1$/;"	m
+NTRU	python/NTRU.py	/^class NTRU:$/;"	c
+OBJ	ntru/Makefile	/^OBJ = ${SRC:.cpp=.o}$/;"	m
+OBJ	ntru/src/Makefile	/^OBJ = ${SRC:.cpp=.o}$/;"	m
+Parameters	ntru/include/Parameters.h	/^class Parameters$/;"	c
+Parameters	ntru/src/Parameters.cpp	/^Parameters::Parameters()$/;"	f	class:Parameters
+Parameters167	ntru/include/Parameters.h	/^class Parameters167 : public Parameters$/;"	c
+Parameters167	ntru/src/Parameters.cpp	/^Parameters167::Parameters167()$/;"	f	class:Parameters167
+Parameters251	ntru/include/Parameters.h	/^class Parameters251 : public Parameters$/;"	c
+Parameters251	ntru/src/Parameters.cpp	/^Parameters251::Parameters251()$/;"	f	class:Parameters251
+Parameters503	ntru/include/Parameters.h	/^class Parameters503 : public Parameters$/;"	c
+Parameters503	ntru/src/Parameters.cpp	/^Parameters503::Parameters503()$/;"	f	class:Parameters503
+Polinom	ntru/include/Polinom.h	/^class Polinom$/;"	c
+Polinom	ntru/src/Polinom.cpp	/^Polinom::Polinom()$/;"	f	class:Polinom
+SRC	ntru/Makefile	/^SRC = Source.cpp$/;"	m
+SignedByteResidue	ntru/include/Numbers.h	/^class SignedByteResidue$/;"	c
+SignedByteResidue	ntru/src/Numbers.cpp	/^SignedByteResidue::SignedByteResidue(long long n, unsigned char _mod)$/;"	f	class:SignedByteResidue
+SignedByteResiduePolinom	ntru/include/Polinom.h	/^class SignedByteResiduePolinom : public Polinom$/;"	c
+SignedByteResiduePolinom	ntru/src/Polinom.cpp	/^SignedByteResiduePolinom::SignedByteResiduePolinom(const SignedByteResiduePolinom &arg)$/;"	f	class:SignedByteResiduePolinom
+SignedByteResiduePolinom	ntru/src/Polinom.cpp	/^SignedByteResiduePolinom::SignedByteResiduePolinom(int size)$/;"	f	class:SignedByteResiduePolinom
+SignedByteResiduePolinom	ntru/src/Polinom.cpp	/^SignedByteResiduePolinom::SignedByteResiduePolinom(unsigned char _mod, int size)$/;"	f	class:SignedByteResiduePolinom
+SignedByteResiduePolinom	ntru/src/Polinom.cpp	/^SignedByteResiduePolinom::SignedByteResiduePolinom(vector<SignedByteResidue>& v)$/;"	f	class:SignedByteResiduePolinom
+SignedByteResiduePolinom	ntru/src/Polinom.cpp	/^SignedByteResiduePolinom::SignedByteResiduePolinom(vector<SignedByteResidue>* v)$/;"	f	class:SignedByteResiduePolinom
+TARGET	ntru/Makefile	/^TARGET = .\/tmp.out$/;"	m
+TestPar	ntru/include/Parameters.h	/^class TestPar : public Parameters$/;"	c
+TestPar	ntru/src/Parameters.cpp	/^TestPar::TestPar()$/;"	f	class:TestPar
+__del__	python/NTRU.py	/^    def __del__(self):$/;"	m	class:NTRU	file:
+__init__	python/NTRU.py	/^    def __init__(self, num, mode, **kwargs):$/;"	m	class:NTRU
+abs	ntru/include/Numbers.h	5;"	d
+action	python/NTRU.py	/^    def action(self, data):$/;"	m	class:NTRU
+add	ntru/src/Polinom.cpp	/^SignedByteResiduePolinom & SignedByteResiduePolinom::add(const SignedByteResiduePolinom &arg)$/;"	f	class:SignedByteResiduePolinom
+align	ntru/src/Numbers.cpp	/^char SignedByteResidue::align(long long n)$/;"	f	class:SignedByteResidue
+b	ntru/include/BitStream.h	/^	Byte b;$/;"	m	class:BiteField
+b0	ntru/include/BitStream.h	/^	unsigned b0 : 1;$/;"	m	struct:Bits
+b1	ntru/include/BitStream.h	/^	unsigned b1 : 1;$/;"	m	struct:Bits
+b2	ntru/include/BitStream.h	/^	unsigned b2 : 1;$/;"	m	struct:Bits
+b3	ntru/include/BitStream.h	/^	unsigned b3 : 1;$/;"	m	struct:Bits
+b4	ntru/include/BitStream.h	/^	unsigned b4 : 1;$/;"	m	struct:Bits
+b5	ntru/include/BitStream.h	/^	unsigned b5 : 1;$/;"	m	struct:Bits
+b6	ntru/include/BitStream.h	/^	unsigned b6 : 1;$/;"	m	struct:Bits
+b7	ntru/include/BitStream.h	/^	unsigned b7 : 1;$/;"	m	struct:Bits
+bit_count	ntru/include/BitStream.h	/^	int bit_count = 0;$/;"	m	class:BitStreamIn
+bit_count	ntru/include/BitStream.h	/^	int bit_count = 0;$/;"	m	class:ByteStreamOut
+bite_field	ntru/include/BitStream.h	/^	Bits bite_field;$/;"	m	union:Byte
+c	ntru/include/BitStream.h	/^	unsigned char c;$/;"	m	union:Byte
+changeMod	ntru/src/Numbers.cpp	/^char SignedByteResidue::changeMod(unsigned char _mod)$/;"	f	class:SignedByteResidue
+changeMod	ntru/src/Polinom.cpp	/^void SignedByteResiduePolinom::changeMod(unsigned char arg)$/;"	f	class:SignedByteResiduePolinom
+clean	ntru/src/Polinom.cpp	/^void SignedByteResiduePolinom::clean()$/;"	f	class:SignedByteResiduePolinom
+coefs	ntru/include/Polinom.h	/^	vector<SignedByteResidue> *coefs = nullptr;$/;"	m	class:SignedByteResiduePolinom
+count	python/main.py	/^            count = s[0] + s[1] * 256$/;"	v
+count	python/main.py	/^    count = 0$/;"	v
+data	ntru/include/BitStream.h	/^	char **data;$/;"	m	class:ByteStreamOut
+data	ntru/include/BitStream.h	/^	unsigned char *data;$/;"	m	class:BitStreamIn
+dec	python/main.py	/^    dec = NTRU(num, ntru.DEC)$/;"	v
+decrypt	ntru/src/Decryption.cpp	/^unsigned char * Decryption::decrypt(char *data)$/;"	f	class:Decryption
+decrypt	ntru/src/NTRULib.cpp	/^int decrypt(char* in, int in_size, char* out, int obj)$/;"	f
+decryptPol	ntru/src/Decryption.cpp	/^PolType * Decryption::decryptPol(PolType * c)$/;"	f	class:Decryption
+devide	ntru/src/Polinom.cpp	/^SignedByteResiduePolinom & SignedByteResiduePolinom::devide(const SignedByteResidue &arg)$/;"	f	class:SignedByteResiduePolinom
+enc	python/main.py	/^    enc = NTRU(num, ntru.ENC, key=key)$/;"	v
+encrypt	ntru/src/Encryption.cpp	/^char * Encryption::encrypt(unsigned char *data)$/;"	f	class:Encryption
+encrypt	ntru/src/NTRULib.cpp	/^void encrypt(char* in, int in_size, char* out, int obj)$/;"	f
+encryptPol	ntru/src/Encryption.cpp	/^PolType * Encryption::encryptPol(PolType * data)$/;"	f	class:Encryption
+f	ntru/include/BitStream.h	/^	char (BiteField::*f)(unsigned char);$/;"	m	class:BiteField
+f	ntru/include/Decryption.h	/^	PolType* f;$/;"	m	class:Decryption
+fk	python/main.py	/^    fk = open('key.txt', 'rb')$/;"	v
+fk	python/main.py	/^    fk = open('key.txt', 'wb')$/;"	v
+fo	python/main.py	/^            fo = open('emes.txt', 'rb')$/;"	v
+fo	python/main.py	/^    fo = open('input.txt', 'rb')$/;"	v
+fp	ntru/include/Decryption.h	/^	PolType* fp;$/;"	m	class:Decryption
+fw	python/main.py	/^            fw = open('output.txt', 'wb')$/;"	v
+fw	python/main.py	/^    fw = open('emest.txt', 'wb')$/;"	v
+g	ntru/include/BitStream.h	/^	void (BiteField::*g)(unsigned char, unsigned char);$/;"	m	class:BiteField
+gcd	ntru/src/Numbers.cpp	/^int gcd(int a, int b, SignedByteResidue &x, SignedByteResidue &y)$/;"	f
+gcd	ntru/src/Polinom.cpp	/^SignedByteResiduePolinom* gcd(SignedByteResiduePolinom *a, SignedByteResiduePolinom *b, \\$/;"	f
+gen	ntru/include/Decryption.h	/^	generator<SignedByteResidue> gen;$/;"	m	class:Decryption
+gen	ntru/include/Encryption.h	/^	generator<SignedByteResidue> gen;$/;"	m	class:Encryption
+genData	ntru/include/generator.h	/^	unsigned char* genData(int m)$/;"	f	class:generator
+genTest	ntru/include/generator.h	/^	vector<Num>* genTest(unsigned char mod, int start = 0)$/;"	f	class:generator
+generate	ntru/include/generator.h	/^	vector<Num>* generate(int num_of_1, int num_of_neg_1, unsigned char mod)$/;"	f	class:generator
+generator	ntru/include/generator.h	/^	generator(int n)$/;"	f	class:generator
+generator	ntru/include/generator.h	/^class generator$/;"	c
+getBiteBE	ntru/src/BitStream.cpp	/^char BiteField::getBiteBE(unsigned char i)$/;"	f	class:BiteField
+getBiteLE	ntru/src/BitStream.cpp	/^char BiteField::getBiteLE(unsigned char i)$/;"	f	class:BiteField
+getByMod	ntru/src/Numbers.cpp	/^char SignedByteResidue::getByMod(unsigned char _mod)$/;"	f	class:SignedByteResidue
+getByte	ntru/src/BitStream.cpp	/^unsigned char BiteField::getByte()$/;"	f	class:BiteField
+getChar	ntru/src/Polinom.cpp	/^char * SignedByteResiduePolinom::getChar() const$/;"	f	class:SignedByteResiduePolinom
+getEncSize	ntru/src/NTRULib.cpp	/^int getEncSize(int data_size, int obj)$/;"	f
+getField	ntru/src/BitStream.cpp	/^char BiteField::getField(unsigned char i)$/;"	f	class:BiteField
+getFreeCoef	ntru/src/Polinom.cpp	/^SignedByteResidue & SignedByteResiduePolinom::getFreeCoef()$/;"	f	class:SignedByteResiduePolinom
+getKey	python/NTRU.py	/^    def getKey(self):$/;"	m	class:NTRU
+getMainIndex	ntru/src/Polinom.cpp	/^int SignedByteResiduePolinom::getMainIndex() const$/;"	f	class:SignedByteResiduePolinom
+getMod	ntru/src/Numbers.cpp	/^unsigned char SignedByteResidue::getMod() const$/;"	f	class:SignedByteResidue
+getMod	ntru/src/Polinom.cpp	/^unsigned char SignedByteResiduePolinom::getMod() const$/;"	f	class:SignedByteResiduePolinom
+getNextBit	ntru/src/BitStream.cpp	/^char BitStreamIn::getNextBit()$/;"	f	class:BitStreamIn
+getNextByte	ntru/src/BitStream.cpp	/^unsigned char ByteStreamOut::getNextByte()$/;"	f	class:ByteStreamOut
+getNumOfParts	ntru/src/NTRULib.cpp	/^static int getNumOfParts(int data_size, int obj)$/;"	f	file:
+getOpenKey	ntru/src/Decryption.cpp	/^char * Decryption::getOpenKey()$/;"	f	class:Decryption
+getOpenKeyPol	ntru/src/Decryption.cpp	/^PolType * Decryption::getOpenKeyPol()$/;"	f	class:Decryption
+getPublicKey	ntru/src/NTRULib.cpp	/^char * getPublicKey(int obj)$/;"	f
+getResidue	ntru/src/Polinom.cpp	/^SignedByteResiduePolinom* SignedByteResiduePolinom::getResidue(SignedByteResiduePolinom &arg, SignedByteResiduePolinom **dev)$/;"	f	class:SignedByteResiduePolinom
+getResidueModByThis	ntru/src/Polinom.cpp	/^SignedByteResiduePolinom* SignedByteResiduePolinom::getResidueModByThis(SignedByteResiduePolinom **dev)$/;"	f	class:SignedByteResiduePolinom
+getRevIndex	ntru/src/Polinom.cpp	/^unsigned int SignedByteResiduePolinom::getRevIndex(unsigned int i) const$/;"	f	class:SignedByteResiduePolinom
+getReverse	ntru/src/Numbers.cpp	/^SignedByteResidue SignedByteResidue::getReverse() const$/;"	f	class:SignedByteResidue
+getReverse	ntru/src/Polinom.cpp	/^SignedByteResiduePolinom * SignedByteResiduePolinom::getReverse()$/;"	f	class:SignedByteResiduePolinom
+getSize	ntru/src/Polinom.cpp	/^int SignedByteResiduePolinom::getSize() const$/;"	f	class:SignedByteResiduePolinom
+getValue	ntru/src/Numbers.cpp	/^char SignedByteResidue::getValue() const$/;"	f	class:SignedByteResidue
+get_N	ntru/src/Parameters.cpp	/^int Parameters167::get_N()$/;"	f	class:Parameters167
+get_N	ntru/src/Parameters.cpp	/^int Parameters251::get_N()$/;"	f	class:Parameters251
+get_N	ntru/src/Parameters.cpp	/^int Parameters503::get_N()$/;"	f	class:Parameters503
+get_N	ntru/src/Parameters.cpp	/^int TestPar::get_N()$/;"	f	class:TestPar
+get_df	ntru/src/Parameters.cpp	/^int Parameters167::get_df()$/;"	f	class:Parameters167
+get_df	ntru/src/Parameters.cpp	/^int Parameters251::get_df()$/;"	f	class:Parameters251
+get_df	ntru/src/Parameters.cpp	/^int Parameters503::get_df()$/;"	f	class:Parameters503
+get_df	ntru/src/Parameters.cpp	/^int TestPar::get_df()$/;"	f	class:TestPar
+get_dg	ntru/src/Parameters.cpp	/^int Parameters167::get_dg()$/;"	f	class:Parameters167
+get_dg	ntru/src/Parameters.cpp	/^int Parameters251::get_dg()$/;"	f	class:Parameters251
+get_dg	ntru/src/Parameters.cpp	/^int Parameters503::get_dg()$/;"	f	class:Parameters503
+get_dg	ntru/src/Parameters.cpp	/^int TestPar::get_dg()$/;"	f	class:TestPar
+get_dr	ntru/src/Parameters.cpp	/^int Parameters167::get_dr()$/;"	f	class:Parameters167
+get_dr	ntru/src/Parameters.cpp	/^int Parameters251::get_dr()$/;"	f	class:Parameters251
+get_dr	ntru/src/Parameters.cpp	/^int Parameters503::get_dr()$/;"	f	class:Parameters503
+get_dr	ntru/src/Parameters.cpp	/^int TestPar::get_dr()$/;"	f	class:TestPar
+get_p	ntru/src/Parameters.cpp	/^int Parameters167::get_p()$/;"	f	class:Parameters167
+get_p	ntru/src/Parameters.cpp	/^int Parameters251::get_p()$/;"	f	class:Parameters251
+get_p	ntru/src/Parameters.cpp	/^int Parameters503::get_p()$/;"	f	class:Parameters503
+get_p	ntru/src/Parameters.cpp	/^int TestPar::get_p()$/;"	f	class:TestPar
+get_q	ntru/src/Parameters.cpp	/^int Parameters167::get_q()$/;"	f	class:Parameters167
+get_q	ntru/src/Parameters.cpp	/^int Parameters251::get_q()$/;"	f	class:Parameters251
+get_q	ntru/src/Parameters.cpp	/^int Parameters503::get_q()$/;"	f	class:Parameters503
+get_q	ntru/src/Parameters.cpp	/^int TestPar::get_q()$/;"	f	class:TestPar
+h	ntru/include/Decryption.h	/^	PolType* h;$/;"	m	class:Decryption
+h	ntru/include/Encryption.h	/^	PolType* h;$/;"	m	class:Encryption
+isConst	ntru/src/Polinom.cpp	/^bool SignedByteResiduePolinom::isConst() const$/;"	f	class:SignedByteResiduePolinom
+isZero	ntru/src/Numbers.cpp	/^bool SignedByteResidue::isZero() const$/;"	f	class:SignedByteResidue
+isZero	ntru/src/Polinom.cpp	/^bool SignedByteResiduePolinom::isZero() const$/;"	f	class:SignedByteResiduePolinom
+key	python/main.py	/^    key = bytearray(fk.read())$/;"	v
+key	python/main.py	/^    key = dec.getKey()$/;"	v
+main	ntru/Source.cpp	/^int main()$/;"	f
+mod	ntru/include/Numbers.h	/^	unsigned char mod;$/;"	m	class:SignedByteResidue
+mod	ntru/include/Polinom.h	/^	unsigned char mod = 253;$/;"	m	class:SignedByteResiduePolinom
+multiple	ntru/src/Polinom.cpp	/^SignedByteResiduePolinom & SignedByteResiduePolinom::multiple(const SignedByteResidue &arg)$/;"	f	class:SignedByteResiduePolinom
+multiple	ntru/src/Polinom.cpp	/^SignedByteResiduePolinom & SignedByteResiduePolinom::multiple(const SignedByteResiduePolinom &arg)$/;"	f	class:SignedByteResiduePolinom
+n	ntru/include/Numbers.h	/^	char n;$/;"	m	class:SignedByteResidue
+n	ntru/include/generator.h	/^	int n;$/;"	m	class:generator
+num	python/main.py	/^num = 167$/;"	v
+num_of_blocks	ntru/include/BitStream.h	/^	int num_of_blocks;$/;"	m	class:ByteStreamOut
+num_of_bytes	ntru/include/BitStream.h	/^	int num_of_bytes;$/;"	m	class:BitStreamIn
+num_of_bytes_in_block	ntru/include/BitStream.h	/^	int num_of_bytes_in_block;$/;"	m	class:ByteStreamOut
+operator *	ntru/src/Numbers.cpp	/^SignedByteResidue SignedByteResidue::operator*(const SignedByteResidue &arg) const$/;"	f	class:SignedByteResidue
+operator *=	ntru/src/Numbers.cpp	/^SignedByteResidue & SignedByteResidue::operator*=(const SignedByteResidue &arg)$/;"	f	class:SignedByteResidue
+operator +	ntru/src/Numbers.cpp	/^SignedByteResidue SignedByteResidue::operator+(const SignedByteResidue &arg) const$/;"	f	class:SignedByteResidue
+operator +=	ntru/src/Numbers.cpp	/^SignedByteResidue & SignedByteResidue::operator+=(const SignedByteResidue &arg)$/;"	f	class:SignedByteResidue
+operator -	ntru/src/Numbers.cpp	/^SignedByteResidue SignedByteResidue::operator-(const SignedByteResidue &arg) const$/;"	f	class:SignedByteResidue
+operator -=	ntru/src/Numbers.cpp	/^SignedByteResidue & SignedByteResidue::operator-=(const SignedByteResidue &arg)$/;"	f	class:SignedByteResidue
+operator /	ntru/src/Numbers.cpp	/^SignedByteResidue SignedByteResidue::operator\/(const SignedByteResidue &arg) const$/;"	f	class:SignedByteResidue
+operator /=	ntru/src/Numbers.cpp	/^SignedByteResidue & SignedByteResidue::operator\/=(const SignedByteResidue &arg)$/;"	f	class:SignedByteResidue
+operator <<	ntru/src/Numbers.cpp	/^ostream & operator<<(ostream & in, const SignedByteResidue num)$/;"	f
+operator <<	ntru/src/Polinom.cpp	/^ostream & operator<<(ostream & in, const SignedByteResiduePolinom &arg)$/;"	f
+operator =	ntru/src/Numbers.cpp	/^SignedByteResidue & SignedByteResidue::operator=(long long arg)$/;"	f	class:SignedByteResidue
+operator =	ntru/src/Polinom.cpp	/^SignedByteResiduePolinom & SignedByteResiduePolinom::operator=(SignedByteResiduePolinom &arg)$/;"	f	class:SignedByteResiduePolinom
+operator []	ntru/src/BitStream.cpp	/^char BiteField::operator[](unsigned char i)$/;"	f	class:BiteField
+operator []	ntru/src/Polinom.cpp	/^SignedByteResidue & SignedByteResiduePolinom::operator[](unsigned int n)$/;"	f	class:SignedByteResiduePolinom
+p	ntru/include/Decryption.h	/^	Parameters* p;$/;"	m	class:Decryption
+p	ntru/include/Encryption.h	/^	Parameters* p;$/;"	m	class:Encryption
+ptrdel	ntru/src/NTRULib.cpp	/^void ptrdel(char *ptr)$/;"	f
+random	ntru/include/generator.h	/^	int random(unsigned int mod)$/;"	f	class:generator
+s	python/main.py	/^                s = bytearray(fo.read(num * 8))$/;"	v
+s	python/main.py	/^            s = bytearray(fo.read(num * 8))$/;"	v
+s	python/main.py	/^        s = bytearray(fo.read(num))$/;"	v
+s	python/main.py	/^    s = bytearray(2)$/;"	v
+s	python/main.py	/^    s = bytearray(fo.read(num))$/;"	v
+sessionDecClose	ntru/src/NTRULib.cpp	/^void sessionDecClose(int obj)$/;"	f
+sessionDecInit	ntru/src/NTRULib.cpp	/^int sessionDecInit(int n)$/;"	f
+sessionEncClose	ntru/src/NTRULib.cpp	/^void sessionEncClose(int obj)$/;"	f
+sessionEncInit	ntru/src/NTRULib.cpp	/^int  sessionEncInit(int n, char *h)$/;"	f
+setBite	ntru/src/BitStream.cpp	/^void BiteField::setBite(unsigned char i, unsigned char c)$/;"	f	class:BiteField
+setBiteBE	ntru/src/BitStream.cpp	/^void BiteField::setBiteBE(unsigned char i, unsigned char c)$/;"	f	class:BiteField
+setBiteLE	ntru/src/BitStream.cpp	/^void BiteField::setBiteLE(unsigned char i, unsigned char c)$/;"	f	class:BiteField
+setField	ntru/src/BitStream.cpp	/^void BiteField::setField(unsigned char i, unsigned char c)$/;"	f	class:BiteField
+size	ntru/include/Polinom.h	/^	int size;$/;"	m	class:SignedByteResiduePolinom
+subtract	ntru/src/Polinom.cpp	/^SignedByteResiduePolinom & SignedByteResiduePolinom::subtract(const SignedByteResiduePolinom &arg)$/;"	f	class:SignedByteResiduePolinom
+txt	python/main.py	/^                txt = dec.action(s)$/;"	v
+txt	python/main.py	/^        txt = enc.action(s)$/;"	v
+~BitStreamIn	ntru/src/BitStream.cpp	/^BitStreamIn::~BitStreamIn()$/;"	f	class:BitStreamIn
+~BiteField	ntru/src/BitStream.cpp	/^BiteField::~BiteField() {}$/;"	f	class:BiteField
+~ByteStreamOut	ntru/src/BitStream.cpp	/^ByteStreamOut::~ByteStreamOut()$/;"	f	class:ByteStreamOut
+~Decryption	ntru/src/Decryption.cpp	/^Decryption::~Decryption()$/;"	f	class:Decryption
+~Encryption	ntru/src/Encryption.cpp	/^Encryption::~Encryption()$/;"	f	class:Encryption
+~Parameters	ntru/src/Parameters.cpp	/^Parameters::~Parameters()$/;"	f	class:Parameters
+~Parameters167	ntru/src/Parameters.cpp	/^Parameters167::~Parameters167()$/;"	f	class:Parameters167
+~Parameters251	ntru/src/Parameters.cpp	/^Parameters251::~Parameters251()$/;"	f	class:Parameters251
+~Parameters503	ntru/src/Parameters.cpp	/^Parameters503::~Parameters503()$/;"	f	class:Parameters503
+~Polinom	ntru/src/Polinom.cpp	/^Polinom::~Polinom()$/;"	f	class:Polinom
+~SignedByteResidue	ntru/src/Numbers.cpp	/^SignedByteResidue::~SignedByteResidue() { }$/;"	f	class:SignedByteResidue
+~SignedByteResiduePolinom	ntru/src/Polinom.cpp	/^SignedByteResiduePolinom::~SignedByteResiduePolinom()$/;"	f	class:SignedByteResiduePolinom
+~TestPar	ntru/src/Parameters.cpp	/^TestPar::~TestPar()$/;"	f	class:TestPar
+~generator	ntru/include/generator.h	/^	~generator()$/;"	f	class:generator

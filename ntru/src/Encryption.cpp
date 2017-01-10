@@ -15,11 +15,10 @@ PolType * Encryption::encryptPol(PolType * data)
 	return r;
 }
 
-char * Encryption::encrypt(unsigned char *data)
+char * Encryption::encrypt(unsigned char *data, char* data_out)
 {
 	PolType *pols[8];
 	BitStreamIn st(data, p->get_N());
-	char *data_out = nullptr;
 
 	//������������ ���������
 	for (int i = 0; i < 8; ++i)
@@ -42,7 +41,6 @@ char * Encryption::encrypt(unsigned char *data)
 		}
 
 		//������������ �����������
-		data_out = new char[p->get_N() * 8];
 		for (int i = 0; i < p->get_N() * 8; ++i)
 			data_out[i] = (*(pols[i / p->get_N()]))[i % p->get_N()].getValue();
 		
@@ -55,7 +53,6 @@ char * Encryption::encrypt(unsigned char *data)
 	{
 		for (int i = 0; i < 8; ++i)
 			delete pols[i];
-		delete data_out;
 		return nullptr;
 	}
 }

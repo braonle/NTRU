@@ -16,7 +16,7 @@ public:
 	Decryption(Parameters*);
 	PolType* getOpenKeyPol();
 	PolType* decryptPol(PolType*);
-	unsigned char* decrypt(char*);
+	unsigned char* decrypt(char*, unsigned char*);
 	~Decryption();
 	char* getOpenKey();
 };

@@ -14,7 +14,7 @@ public:
 	Encryption(Parameters*, PolType*);
 
 	PolType* encryptPol(PolType*);
-	char* encrypt(unsigned char*);
+	char* encrypt(unsigned char*, char*);
 	~Encryption();
 
 	Encryption(Parameters*, char*);
